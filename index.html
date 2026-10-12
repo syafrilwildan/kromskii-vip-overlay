@@ -131,6 +131,35 @@
   @media (prefers-reduced-motion: reduce) {
     .ticker-track { animation-duration: 70s; }
   }
+
+/* Layout vertikal */
+@media (max-width: 700px) {
+  .ticker-shell {
+    height: 65px;
+    bottom: 0;
+  }
+  .heading {
+    font-size: 23px;
+  }
+  .item {
+    font-size: 20px;
+  }
+}
+
+/* Layout horizontal */
+@media (min-width: 701px) {
+  .ticker-shell {
+    height: 58px;
+    bottom: 0;
+  }
+  .heading {
+    font-size: 21px;
+  }
+  .item {
+    font-size: 19px;
+  }
+}
+  
 </style>
 </head>
 <body>
